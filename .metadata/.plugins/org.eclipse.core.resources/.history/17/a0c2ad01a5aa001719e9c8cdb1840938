@@ -1,0 +1,86 @@
+/*
+ * Parallel-Ants.xc
+ *
+ *  Created on: 29 Sep 2017
+ *      Author: sc16913
+ */
+
+#include <platform.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+void queen (unsigned int x, unsigned int y, chanend cWorker1toQueen, chanend cWorker2toQueen){
+    unsigned int foodFromWorker1;
+    unsigned int foodFromWorker2;
+    unsigned int overall;
+    int stay = 1;
+
+    while (1){
+    cWorker1toQueen :> foodFromWorker1;
+    printf("Worker 1 sent data %i to Queen\n", foodFromWorker1);
+    cWorker2toQueen :> foodFromWorker2;
+    printf("Worker 2 sent data %i to Queen\n", foodFromWorker2);
+
+    if (foodFromWorker1 > foodFromWorker2){
+        cWorker1toQueen <: stay;
+        cWorker2toQueen <: (!stay);
+        overall += foodFromWorker1;
+        printf("Overall food gathered %i\n", overall);
+    }
+    else {
+        cWorker2toQueen <: stay;
+        cWorker1toQueen <: (!stay);
+        overall += foodFromWorker2;
+        printf("Overall food gathered %i\n", overall);
+    }
+    }
+
+}
+
+void ant (const unsigned char map[3][4], unsigned int id, unsigned int x, unsigned int y, chanend cQueen){
+    int foodCount = 0;
+    int stay;
+
+    while (1) {
+    foodCount = map[x][y];
+    cQueen <: foodCount;
+
+    cQueen :> stay;
+
+    if (!stay) {
+        for (int i = 0; i < 2; i++){
+               if (map[x][(y+1)%4] > map[(x+1)%3][y])
+                   y = (y+1)%4;
+               else
+                   x = (x+1)%3;
+           }
+    }
+    else {
+        while (1) {
+            cQueen <: foodCount;
+        }
+    }
+    }
+
+}
+
+int main(){
+
+    const unsigned char map[3][4] = {
+                                   {10, 0, 1, 7},
+                                   {2, 10, 0, 3},
+                                   {6, 8, 7, 6}
+                                   };
+    chan cWorker1toQueen;
+    chan cWorker2toQueen;
+
+    par {
+        ant(map, 1, 0, 1, cWorker1toQueen);
+        ant(map, 2, 1, 0, cWorker2toQueen);
+        queen(1,1, cWorker1toQueen, cWorker2toQueen);
+    }
+
+    return 0;
+}
+
+

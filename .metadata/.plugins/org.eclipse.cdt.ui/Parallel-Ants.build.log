@@ -1,0 +1,9 @@
+16:11:56 **** Incremental Build of configuration Default for project Parallel-Ants ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Parallel-Ants.xe' is up to date.
+Build Complete
+
+16:11:56 Build Finished (took 162ms)
+

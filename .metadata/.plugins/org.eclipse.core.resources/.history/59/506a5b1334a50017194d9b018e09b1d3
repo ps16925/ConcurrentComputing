@@ -1,0 +1,66 @@
+/*
+ * Parallel-Ants.xc
+ *
+ *  Created on: 29 Sep 2017
+ *      Author: sc16913
+ */
+
+#include <platform.h>
+#include <stdio.h>
+
+{int, int, int} antMove (const unsigned char map[3][4], unsigned int id, unsigned int x, unsigned int y){
+    int foodCount = 0;
+
+    for (int i = 0; i < 2; i++){
+        if (map[x][(y+1)%4] > map[(x+1)%3][y])
+            y = (y+1)%4;
+        else
+            x = (x+1)%3;
+
+        foodCount += map[x][y];
+    }
+
+    printf("Ant %d moved to (%d,%d) with new food count %d\n", id, x, y, foodCount);
+
+    return {foodCount, x, y};
+}
+
+{int, int, int} ant (const unsigned char map[3][4], unsigned int id, unsigned int x, unsigned int y){
+
+    unsigned int foodCount = 0;
+    {foodCount, x, y} = antMove(map, id, x, y);
+
+    return {foodCount, x, y};
+}
+
+int main(){
+    unsigned int food[4];
+    unsigned int x[4], y[4];
+    unsigned int totalFood = 0;
+    unsigned int meanX = 0;
+    unsigned int meanY = 0;
+
+    const unsigned char map[3][4] = {
+                                   {10, 0, 1, 7},
+                                   {2, 10, 0, 3},
+                                   {6, 8, 7, 6}
+                                   };
+    par {
+        {food[0], x[0], y[0]} = ant(map, 1, 0, 1);
+        {food[1], x[1], y[1]} = ant(map, 2, 0, 2);
+        {food[2], x[2], y[2]} = ant(map, 3, 1, 2);
+        {food[3], x[3], y[3]} = ant(map, 4, 1, 0);
+    }
+
+    for(int i=0; i<4; i++){
+        totalFood += food[i];
+        meanX += x[i]/4;
+        meanY += y[i]/4;
+    }
+
+    printf("Total food amount: %d\n", totalFood);
+
+    return 0;
+}
+
+

@@ -1,0 +1,9 @@
+17:42:08 **** Incremental Build of configuration Default for project helloXC ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//helloXC.xe' is up to date.
+Build Complete
+
+17:42:08 Build Finished (took 164ms)
+

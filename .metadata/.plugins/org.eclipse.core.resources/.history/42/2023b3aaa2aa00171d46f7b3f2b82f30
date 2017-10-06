@@ -1,0 +1,80 @@
+/*
+ * Parallel-Ants.xc
+ *
+ *  Created on: 29 Sep 2017
+ *      Author: sc16913
+ */
+
+#include <platform.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+void queen (unsigned int x, unsigned int y, chanend cWorker1toQueen, chanend cWorker2toQueen){
+    unsigned int data;
+    unsigned int data2;
+    int stay;
+
+    cWorker1toQueen :> data;
+    printf("Worker 1 sent data %i to Queen\n", data);
+    cWorker2toQueen :> data2;
+    printf("Worker 2 sent data %i to Queen\n", data2);
+
+    if (data > data2){
+        stay = 1;
+        cWorker1toQueen <: stay; //only ant 1 can move
+    }
+    else {
+        stay = 0;
+        cWorker2toQueen <: stay;
+    }
+
+}
+
+{int, int, int} ant (const unsigned char map[3][4], unsigned int id, unsigned int x, unsigned int y, chanend cQueen){
+    int foodCount = 0;
+    int stay;
+
+    foodCount = map[x][y];
+    cQueen <: foodCount;
+
+    cQueen :> stay;
+
+    if (!stay) {
+        for (int i = 0; i < 2; i++){
+               if (map[x][(y+1)%4] > map[(x+1)%3][y])
+                   y = (y+1)%4;
+               else
+                   x = (x+1)%3;
+           }
+    }
+    else {
+        while (1) {
+            cQueen <: foodCount;
+        }
+    }
+
+    printf("Ant %d moved to (%d,%d) with new food count %d\n", id, x, y, foodCount);
+
+    return {foodCount, x, y};
+}
+
+int main(){
+
+    const unsigned char map[3][4] = {
+                                   {10, 0, 1, 7},
+                                   {2, 10, 0, 3},
+                                   {6, 8, 7, 6}
+                                   };
+    chan cWorker1toQueen;
+    chan cWorker2toQueen;
+
+    par {
+        ant(map, 1, 0, 1, cWorker1toQueen);
+        ant(map, 2, 1, 0, cWorker2toQueen);
+        queen(1,1, cWorker1toQueen, cWorker2toQueen);
+    }
+
+    return 0;
+}
+
+
