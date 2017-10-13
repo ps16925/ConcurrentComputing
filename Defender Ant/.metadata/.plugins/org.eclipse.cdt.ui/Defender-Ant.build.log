@@ -1,0 +1,9 @@
+16:38:54 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+
+16:38:54 Build Finished (took 159ms)
+

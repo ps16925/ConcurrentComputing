@@ -1,0 +1,2134 @@
+14:52:57 **** Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:137:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:139:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:140:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:161:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Propagating analysis
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:137:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:139:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:140:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:161:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+14:53:23 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:54:14 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:54:57 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:55:07 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:55:43 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:55:53 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:56:26 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:56:38 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:56:41 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:56:48 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:57:09 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:57:51 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:57:56 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:58:27 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:58:34 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:59:03 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+14:59:14 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:00:44 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:01:00 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:01:19 **** Clean-only build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default clean 
+Cleaning /home/fe16/sc16913/linux/Documents/Concurrent Computing/Defender Ant/Defender-Ant
+rm -rf './bin/'
+rm -rf '.build'
+15:01:19 **** Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:137:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:139:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:140:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:161:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Propagating analysis
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:137:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:139:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:140:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:161:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:01:23 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:01:42 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:02:03 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:02:27 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:04:16 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:139:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:141:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:142:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:143:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:163:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:164:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:139:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:141:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:142:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:143:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:163:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:164:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:04:36 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:07:27 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:135:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:137:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:138:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:139:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:159:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:160:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:135:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:137:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:138:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:139:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:159:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:160:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:07:29 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:08:08 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:135:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:137:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:138:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:139:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:159:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:160:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:135:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:137:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:138:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:139:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:159:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:160:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:08:16 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:09:06 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:137:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:139:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:140:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:161:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:137:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:139:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:140:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:161:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:09:08 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:10:36 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:138:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:140:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:142:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:163:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:120:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:121:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden;                       //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:138:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:140:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:141:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:142:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:162:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:163:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:10:38 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:30:33 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:126:9: error: use of undeclared identifer `attemptedAntPositon'
+        attemptedAntPositon = userAntPosition + 1;
+        ^
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:179:11: error: use of undeclared identifer `world'
+      if (world[attempt] == '-'){
+          ^
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+15:31:14 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:132:9: error: use of undeclared identifer `attemptedAntPositon'
+        attemptedAntPositon = userAntPosition - 1;
+        ^
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:179:11: error: use of undeclared identifer `world'
+      if (world[attempt] == '-'){
+          ^
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+15:31:22 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:179:11: error: use of undeclared identifer `world'
+      if (world[attempt] == '-'){
+          ^
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+15:33:59 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:39:22 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:43:14 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:43:44 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:16: warning: unused variable `lastReportedAttackerAntPosition' [-Wunused-variable]
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:51:54 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:52:19 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:52:24 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:52:35 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:53:31 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:169:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:55:54 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:146:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:148:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:149:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:59:07 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:147:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:149:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:147:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:149:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:150:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+15:59:16 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:59:26 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+15:59:52 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:02:13 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:181:39: warning: suggest parentheses around && within || [-Wparentheses]
+      if (attempt > 7 && attempt < 15 || attempt == lastReportedUserAntPosition){
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:181:39: warning: suggest parentheses around && within || [-Wparentheses]
+      if (attempt > 7 && attempt < 15 || attempt == lastReportedUserAntPosition){
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:02:43 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:02:49 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:03:02 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:03:32 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:03:36 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:03:38 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:03:39 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:03:52 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:11:57 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:15:58 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:162:4: error: parse error before "else"
+   else{
+   ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:168:1: error: parse error before '}' token
+}
+^
+../src/Defender-Ant.xc:178:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:178:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:178:13: error: parse error before ':>' token
+  fromUser :> attempt;                                //start game when user moves
+            ^
+../src/Defender-Ant.xc:178:15: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:178:15: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:178:15: error: conflicting types for 'attempt'
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:176:16: note: previous definition of 'attempt' was here
+  unsigned int attempt = 0;                           //incoming data from ants
+               ^~~~~~~
+../src/Defender-Ant.xc:179:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:179:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:179:13: error: parse error before '<:' token
+  fromUser <: 1;                                      //forbid first move
+            ^
+../src/Defender-Ant.xc:186:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:189:11: warning: type defaults to `int' in declaration of `fromAttacker' [-Wimplicit-int]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:189:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:189:25: error: parse error before '<:' token
+          fromAttacker <: attempt;
+                        ^
+../src/Defender-Ant.xc:189:27: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:189:27: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:192:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:195:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:198:7: error: parse error before "case"
+      case fromUser :> attempt:
+      ^
+../src/Defender-Ant.xc:201:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:204:11: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:204:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:204:21: error: parse error before '<:' token
+          fromUser <: 0;
+                    ^
+../src/Defender-Ant.xc:207:5: error: parse error before '}' token
+    }
+    ^
+../src/Defender-Ant.xc:220:3: error: parse error before "par"
+  par {
+  ^
+../src/Defender-Ant.xc:223:29: error: parse error before "attackerAntToVisualiser"
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                            ^
+../src/Defender-Ant.xc:223:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:223:17: error: conflicting types for 'attackerAnt'
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:147:6: note: previous definition of 'attackerAnt' was here
+void attackerAnt(chanend toVisualiser, chanend toController) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:224:28: error: parse error before "attackerAntToController"
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                           ^
+../src/Defender-Ant.xc:224:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:227:32: error: parse error before "buttons"
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                               ^
+../src/Defender-Ant.xc:227:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:227:17: error: conflicting types for 'buttonListener'
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:45:6: note: previous definition of 'buttonListener' was here
+void buttonListener(in port b, chanend toUserAnt) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:228:28: error: parse error before "userAntToVisualiser"
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                           ^
+../src/Defender-Ant.xc:228:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:228:17: error: conflicting types for 'visualiser'
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:83:6: note: previous definition of 'visualiser' was here
+void visualiser(chanend fromUserAnt, chanend fromAttackerAnt, chanend toLEDs) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:229:26: error: parse error before "leds"
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                         ^
+../src/Defender-Ant.xc:229:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:229:17: error: conflicting types for 'showLEDs'
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:32:5: note: previous definition of 'showLEDs' was here
+int showLEDs(out port p, chanend fromVisualiser) {
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:232:1: error: parse error before '}' token
+}
+^
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+16:16:12 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:164:4: error: parse error before "else"
+   else {
+   ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:170:1: error: parse error before '}' token
+}
+^
+../src/Defender-Ant.xc:180:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:180:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:180:13: error: parse error before ':>' token
+  fromUser :> attempt;                                //start game when user moves
+            ^
+../src/Defender-Ant.xc:180:15: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:180:15: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:180:15: error: conflicting types for 'attempt'
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:178:16: note: previous definition of 'attempt' was here
+  unsigned int attempt = 0;                           //incoming data from ants
+               ^~~~~~~
+../src/Defender-Ant.xc:181:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:181:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:181:13: error: parse error before '<:' token
+  fromUser <: 1;                                      //forbid first move
+            ^
+../src/Defender-Ant.xc:188:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:191:11: warning: type defaults to `int' in declaration of `fromAttacker' [-Wimplicit-int]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:191:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:191:25: error: parse error before '<:' token
+          fromAttacker <: attempt;
+                        ^
+../src/Defender-Ant.xc:191:27: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:191:27: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:194:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:197:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:200:7: error: parse error before "case"
+      case fromUser :> attempt:
+      ^
+../src/Defender-Ant.xc:203:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:206:11: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:206:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:206:21: error: parse error before '<:' token
+          fromUser <: 0;
+                    ^
+../src/Defender-Ant.xc:209:5: error: parse error before '}' token
+    }
+    ^
+../src/Defender-Ant.xc:222:3: error: parse error before "par"
+  par {
+  ^
+../src/Defender-Ant.xc:225:29: error: parse error before "attackerAntToVisualiser"
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                            ^
+../src/Defender-Ant.xc:225:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:225:17: error: conflicting types for 'attackerAnt'
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:147:6: note: previous definition of 'attackerAnt' was here
+void attackerAnt(chanend toVisualiser, chanend toController) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:226:28: error: parse error before "attackerAntToController"
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                           ^
+../src/Defender-Ant.xc:226:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:229:32: error: parse error before "buttons"
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                               ^
+../src/Defender-Ant.xc:229:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:229:17: error: conflicting types for 'buttonListener'
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:45:6: note: previous definition of 'buttonListener' was here
+void buttonListener(in port b, chanend toUserAnt) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:230:28: error: parse error before "userAntToVisualiser"
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                           ^
+../src/Defender-Ant.xc:230:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:230:17: error: conflicting types for 'visualiser'
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:83:6: note: previous definition of 'visualiser' was here
+void visualiser(chanend fromUserAnt, chanend fromAttackerAnt, chanend toLEDs) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:231:26: error: parse error before "leds"
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                         ^
+../src/Defender-Ant.xc:231:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:231:17: error: conflicting types for 'showLEDs'
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:32:5: note: previous definition of 'showLEDs' was here
+int showLEDs(out port p, chanend fromVisualiser) {
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:234:1: error: parse error before '}' token
+}
+^
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+16:16:25 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:165:4: error: parse error before "else"
+   else {
+   ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:171:1: error: parse error before '}' token
+}
+^
+../src/Defender-Ant.xc:181:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:181:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:181:13: error: parse error before ':>' token
+  fromUser :> attempt;                                //start game when user moves
+            ^
+../src/Defender-Ant.xc:181:15: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:181:15: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:181:15: error: conflicting types for 'attempt'
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:179:16: note: previous definition of 'attempt' was here
+  unsigned int attempt = 0;                           //incoming data from ants
+               ^~~~~~~
+../src/Defender-Ant.xc:182:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:182:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:182:13: error: parse error before '<:' token
+  fromUser <: 1;                                      //forbid first move
+            ^
+../src/Defender-Ant.xc:189:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:192:11: warning: type defaults to `int' in declaration of `fromAttacker' [-Wimplicit-int]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:192:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:192:25: error: parse error before '<:' token
+          fromAttacker <: attempt;
+                        ^
+../src/Defender-Ant.xc:192:27: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:192:27: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:195:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:198:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:201:7: error: parse error before "case"
+      case fromUser :> attempt:
+      ^
+../src/Defender-Ant.xc:204:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:207:11: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:207:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:207:21: error: parse error before '<:' token
+          fromUser <: 0;
+                    ^
+../src/Defender-Ant.xc:210:5: error: parse error before '}' token
+    }
+    ^
+../src/Defender-Ant.xc:223:3: error: parse error before "par"
+  par {
+  ^
+../src/Defender-Ant.xc:226:29: error: parse error before "attackerAntToVisualiser"
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                            ^
+../src/Defender-Ant.xc:226:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:226:17: error: conflicting types for 'attackerAnt'
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:147:6: note: previous definition of 'attackerAnt' was here
+void attackerAnt(chanend toVisualiser, chanend toController) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:227:28: error: parse error before "attackerAntToController"
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                           ^
+../src/Defender-Ant.xc:227:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:230:32: error: parse error before "buttons"
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                               ^
+../src/Defender-Ant.xc:230:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:230:17: error: conflicting types for 'buttonListener'
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:45:6: note: previous definition of 'buttonListener' was here
+void buttonListener(in port b, chanend toUserAnt) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:231:28: error: parse error before "userAntToVisualiser"
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                           ^
+../src/Defender-Ant.xc:231:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:231:17: error: conflicting types for 'visualiser'
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:83:6: note: previous definition of 'visualiser' was here
+void visualiser(chanend fromUserAnt, chanend fromAttackerAnt, chanend toLEDs) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:232:26: error: parse error before "leds"
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                         ^
+../src/Defender-Ant.xc:232:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:232:17: error: conflicting types for 'showLEDs'
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:32:5: note: previous definition of 'showLEDs' was here
+int showLEDs(out port p, chanend fromVisualiser) {
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:235:1: error: parse error before '}' token
+}
+^
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+16:16:41 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:16:51 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:16:51 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:17:04 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:18:09 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:18:37 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:174:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:174:16: warning: unused variable `lastReportedUserAntPosition' [-Wunused-variable]
+  unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:20:04 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:22:02 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:24:00 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:24:28 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:24:45 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:25:53 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:27:11 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Propagating analysis
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:27:15 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:27:24 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:27:35 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+16:28:48 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:29:40 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Propagating analysis
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:30:50 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:31:40 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:35:13 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Propagating analysis
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:151:7: warning: unused variable `currentDirection' [-Wunused-variable]
+  int currentDirection = 1;                  //the current direction the attacker is moving
+      ^~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+16:38:54 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
