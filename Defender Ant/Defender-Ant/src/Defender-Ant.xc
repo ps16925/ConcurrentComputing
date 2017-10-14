@@ -154,12 +154,28 @@ void attackerAnt(chanend toVisualiser, chanend toController) {
   toVisualiser <: attackerAntPosition;       //show initial position
 
   while (running) {
-   if (attackerAntPosition < 22){
-       attackerAntPosition++;
+   attemptedAntPosition = attackerAntPosition + 1; //that's if direction is the same/. other direction needs to be done too
+   toController <: attemptedAntPosition;
+
+
+
+   if (currentDirection){
+       if (attackerAntPosition < 22) {
+           attackerAntPosition++;
+       }
+       else {
+           attackerAntPosition = 0;
+       }
    }
    else {
-       attackerAntPosition = 0;
+       if (attackerAntPosition < 22) {
+           attackerAntPosition--;
+       }
+       else {
+           attackerAntPosition = 0;
+       }
    }
+
   toVisualiser <: attackerAntPosition;
   waitMoment();
   }

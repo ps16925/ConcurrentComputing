@@ -2132,3 +2132,745 @@ Checking build modules
 No build modules used.
 xmake[1]: `bin//Defender-Ant.xe' is up to date.
 Build Complete
+17:30:48 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+xmake[1]: `bin//Defender-Ant.xe' is up to date.
+Build Complete
+17:33:42 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+17:35:10 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:159:30: error: parse error before ')' token
+   if (currentDirection == 1)){
+                             ^
+../src/Defender-Ant.xc:163:8: error: parse error before "else"
+       else {
+       ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:166:4: error: parse error before '}' token
+   }
+   ^
+../src/Defender-Ant.xc:170:8: error: parse error before '}' token
+       }
+       ^
+../src/Defender-Ant.xc:173:8: error: parse error before '}' token
+       }
+       ^
+../src/Defender-Ant.xc:176:3: warning: return type defaults to `int' [-Wreturn-type]
+  waitMoment();
+  ^~~~~~~~~~~~
+../src/Defender-Ant.xc:176:3: error: conflicting types for 'waitMoment'
+  waitMoment();
+  ^~~~~~~~~~~~
+../src/Defender-Ant.xc:56:6: note: previous definition of 'waitMoment' was here
+void waitMoment() {
+     ^~~~~~~~~~~~
+../src/Defender-Ant.xc:177:3: error: parse error before '}' token
+  }
+  ^
+../src/Defender-Ant.xc:188:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:188:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:188:13: error: parse error before ':>' token
+  fromUser :> attempt;                                //start game when user moves
+            ^
+../src/Defender-Ant.xc:188:15: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:188:15: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:188:15: error: conflicting types for 'attempt'
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:186:16: note: previous definition of 'attempt' was here
+  unsigned int attempt = 0;                           //incoming data from ants
+               ^~~~~~~
+../src/Defender-Ant.xc:189:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:189:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:189:13: error: parse error before '<:' token
+  fromUser <: 1;                                      //forbid first move
+            ^
+../src/Defender-Ant.xc:195:7: error: parse error before "if"
+      if ((attempt > 7 && attempt < 15)){
+      ^
+../src/Defender-Ant.xc:197:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:200:11: warning: type defaults to `int' in declaration of `fromAttacker' [-Wimplicit-int]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:200:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:200:25: error: parse error before '<:' token
+          fromAttacker <: attempt;
+                        ^
+../src/Defender-Ant.xc:200:27: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:200:27: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:203:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:206:11: warning: type defaults to `int' in declaration of `lastReportedAttackerAntPosition' [-Wimplicit-int]
+          lastReportedAttackerAntPosition = attempt;
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:206:11: warning: data definition has no type or storage class [-Wunusual-code]
+          lastReportedAttackerAntPosition = attempt;
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:206:11: error: conflicting types for 'lastReportedAttackerAntPosition'
+          lastReportedAttackerAntPosition = attempt;
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:185:16: note: previous definition of 'lastReportedAttackerAntPosition' was here
+  unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:206:45: error: initializer element is not constant
+          lastReportedAttackerAntPosition = attempt;
+                                            ^~~~~~~
+../src/Defender-Ant.xc:207:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:210:7: error: parse error before "case"
+      case fromUser :> attempt:
+      ^
+../src/Defender-Ant.xc:213:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:216:11: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:216:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:216:21: error: parse error before '<:' token
+          fromUser <: 0;
+                    ^
+../src/Defender-Ant.xc:219:5: error: parse error before '}' token
+    }
+    ^
+../src/Defender-Ant.xc:232:3: error: parse error before "par"
+  par {
+  ^
+../src/Defender-Ant.xc:235:29: error: parse error before "attackerAntToVisualiser"
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                            ^
+../src/Defender-Ant.xc:235:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:235:17: error: conflicting types for 'attackerAnt'
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:147:6: note: previous definition of 'attackerAnt' was here
+void attackerAnt(chanend toVisualiser, chanend toController) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:236:28: error: parse error before "attackerAntToController"
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                           ^
+../src/Defender-Ant.xc:236:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:239:32: error: parse error before "buttons"
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                               ^
+../src/Defender-Ant.xc:239:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:239:17: error: conflicting types for 'buttonListener'
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:45:6: note: previous definition of 'buttonListener' was here
+void buttonListener(in port b, chanend toUserAnt) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:240:28: error: parse error before "userAntToVisualiser"
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                           ^
+../src/Defender-Ant.xc:240:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:240:17: error: conflicting types for 'visualiser'
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:83:6: note: previous definition of 'visualiser' was here
+void visualiser(chanend fromUserAnt, chanend fromAttackerAnt, chanend toLEDs) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:241:26: error: parse error before "leds"
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                         ^
+../src/Defender-Ant.xc:241:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:241:17: error: conflicting types for 'showLEDs'
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:32:5: note: previous definition of 'showLEDs' was here
+int showLEDs(out port p, chanend fromVisualiser) {
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:244:1: error: parse error before '}' token
+}
+^
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+17:35:19 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+17:35:40 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+17:36:41 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+17:38:54 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+17:43:09 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:165:12: error: use of undeclared identifer `attackerAntPostion'
+       if (attackerAntPostion < 22){
+           ^
+../src/Defender-Ant.xc:171:4: error: parse error before '}' token
+   }
+   ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+17:43:44 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:171:4: error: parse error before '}' token
+   }
+   ^
+../src/Defender-Ant.xc:176:15: error: parse error before "else"
+              else {
+              ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:184:1: error: parse error before '}' token
+}
+^
+../src/Defender-Ant.xc:194:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:194:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:194:13: error: parse error before ':>' token
+  fromUser :> attempt;                                //start game when user moves
+            ^
+../src/Defender-Ant.xc:194:15: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:194:15: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:194:15: error: conflicting types for 'attempt'
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:192:16: note: previous definition of 'attempt' was here
+  unsigned int attempt = 0;                           //incoming data from ants
+               ^~~~~~~
+../src/Defender-Ant.xc:195:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:195:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:195:13: error: parse error before '<:' token
+  fromUser <: 1;                                      //forbid first move
+            ^
+../src/Defender-Ant.xc:201:7: error: parse error before "if"
+      if ((attempt > 7 && attempt < 15)){
+      ^
+../src/Defender-Ant.xc:203:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:206:11: warning: type defaults to `int' in declaration of `fromAttacker' [-Wimplicit-int]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:206:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:206:25: error: parse error before '<:' token
+          fromAttacker <: attempt;
+                        ^
+../src/Defender-Ant.xc:206:27: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:206:27: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:209:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:212:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:215:7: error: parse error before "case"
+      case fromUser :> attempt:
+      ^
+../src/Defender-Ant.xc:218:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:221:11: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:221:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:221:21: error: parse error before '<:' token
+          fromUser <: 0;
+                    ^
+../src/Defender-Ant.xc:224:5: error: parse error before '}' token
+    }
+    ^
+../src/Defender-Ant.xc:237:3: error: parse error before "par"
+  par {
+  ^
+../src/Defender-Ant.xc:240:29: error: parse error before "attackerAntToVisualiser"
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                            ^
+../src/Defender-Ant.xc:240:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:240:17: error: conflicting types for 'attackerAnt'
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:147:6: note: previous definition of 'attackerAnt' was here
+void attackerAnt(chanend toVisualiser, chanend toController) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:241:28: error: parse error before "attackerAntToController"
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                           ^
+../src/Defender-Ant.xc:241:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:244:32: error: parse error before "buttons"
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                               ^
+../src/Defender-Ant.xc:244:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:244:17: error: conflicting types for 'buttonListener'
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:45:6: note: previous definition of 'buttonListener' was here
+void buttonListener(in port b, chanend toUserAnt) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:245:28: error: parse error before "userAntToVisualiser"
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                           ^
+../src/Defender-Ant.xc:245:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:245:17: error: conflicting types for 'visualiser'
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:83:6: note: previous definition of 'visualiser' was here
+void visualiser(chanend fromUserAnt, chanend fromAttackerAnt, chanend toLEDs) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:246:26: error: parse error before "leds"
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                         ^
+../src/Defender-Ant.xc:246:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:246:17: error: conflicting types for 'showLEDs'
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:32:5: note: previous definition of 'showLEDs' was here
+int showLEDs(out port p, chanend fromVisualiser) {
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:249:1: error: parse error before '}' token
+}
+^
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+17:44:35 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:171:4: error: parse error before '}' token
+   }
+   ^
+../src/Defender-Ant.xc:176:8: error: parse error before "else"
+       else {
+       ^
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+../src/Defender-Ant.xc:179:4: error: parse error before '}' token
+   }
+   ^
+../src/Defender-Ant.xc:182:3: warning: return type defaults to `int' [-Wreturn-type]
+  waitMoment();
+  ^~~~~~~~~~~~
+../src/Defender-Ant.xc:182:3: error: conflicting types for 'waitMoment'
+  waitMoment();
+  ^~~~~~~~~~~~
+../src/Defender-Ant.xc:56:6: note: previous definition of 'waitMoment' was here
+void waitMoment() {
+     ^~~~~~~~~~~~
+../src/Defender-Ant.xc:183:3: error: parse error before '}' token
+  }
+  ^
+../src/Defender-Ant.xc:194:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:194:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+  ^~~~~~~~
+../src/Defender-Ant.xc:194:13: error: parse error before ':>' token
+  fromUser :> attempt;                                //start game when user moves
+            ^
+../src/Defender-Ant.xc:194:15: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:194:15: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:194:15: error: conflicting types for 'attempt'
+  fromUser :> attempt;                                //start game when user moves
+              ^~~~~~~
+../src/Defender-Ant.xc:192:16: note: previous definition of 'attempt' was here
+  unsigned int attempt = 0;                           //incoming data from ants
+               ^~~~~~~
+../src/Defender-Ant.xc:195:3: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:195:3: warning: data definition has no type or storage class [-Wunusual-code]
+  fromUser <: 1;                                      //forbid first move
+  ^~~~~~~~
+../src/Defender-Ant.xc:195:13: error: parse error before '<:' token
+  fromUser <: 1;                                      //forbid first move
+            ^
+../src/Defender-Ant.xc:201:7: error: parse error before "if"
+      if ((attempt > 7 && attempt < 15)){
+      ^
+../src/Defender-Ant.xc:203:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:206:11: warning: type defaults to `int' in declaration of `fromAttacker' [-Wimplicit-int]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:206:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+          ^~~~~~~~~~~~
+../src/Defender-Ant.xc:206:25: error: parse error before '<:' token
+          fromAttacker <: attempt;
+                        ^
+../src/Defender-Ant.xc:206:27: warning: type defaults to `int' in declaration of `attempt' [-Wimplicit-int]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:206:27: warning: data definition has no type or storage class [-Wunusual-code]
+          fromAttacker <: attempt;
+                          ^~~~~~~
+../src/Defender-Ant.xc:209:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:212:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:215:7: error: parse error before "case"
+      case fromUser :> attempt:
+      ^
+../src/Defender-Ant.xc:218:7: error: parse error before '}' token
+      }
+      ^
+../src/Defender-Ant.xc:221:11: warning: type defaults to `int' in declaration of `fromUser' [-Wimplicit-int]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:221:11: warning: data definition has no type or storage class [-Wunusual-code]
+          fromUser <: 0;
+          ^~~~~~~~
+../src/Defender-Ant.xc:221:21: error: parse error before '<:' token
+          fromUser <: 0;
+                    ^
+../src/Defender-Ant.xc:224:5: error: parse error before '}' token
+    }
+    ^
+../src/Defender-Ant.xc:237:3: error: parse error before "par"
+  par {
+  ^
+../src/Defender-Ant.xc:240:29: error: parse error before "attackerAntToVisualiser"
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                            ^
+../src/Defender-Ant.xc:240:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:240:17: error: conflicting types for 'attackerAnt'
+    on tile[1]: attackerAnt(attackerAntToVisualiser,attackerAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:147:6: note: previous definition of 'attackerAnt' was here
+void attackerAnt(chanend toVisualiser, chanend toController) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:241:28: error: parse error before "attackerAntToController"
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                           ^
+../src/Defender-Ant.xc:241:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[1]: controller(attackerAntToController, userAntToController);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:244:32: error: parse error before "buttons"
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                               ^
+../src/Defender-Ant.xc:244:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:244:17: error: conflicting types for 'buttonListener'
+    on tile[0]: buttonListener(buttons, buttonsToUserAnt);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:45:6: note: previous definition of 'buttonListener' was here
+void buttonListener(in port b, chanend toUserAnt) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:245:28: error: parse error before "userAntToVisualiser"
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                           ^
+../src/Defender-Ant.xc:245:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:245:17: error: conflicting types for 'visualiser'
+    on tile[0]: visualiser(userAntToVisualiser,attackerAntToVisualiser,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:83:6: note: previous definition of 'visualiser' was here
+void visualiser(chanend fromUserAnt, chanend fromAttackerAnt, chanend toLEDs) {
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:246:26: error: parse error before "leds"
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                         ^
+../src/Defender-Ant.xc:246:17: warning: return type defaults to `int' [-Wreturn-type]
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:246:17: error: conflicting types for 'showLEDs'
+    on tile[0]: showLEDs(leds,visualiserToLEDs);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:32:5: note: previous definition of 'showLEDs' was here
+int showLEDs(out port p, chanend fromVisualiser) {
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:249:1: error: parse error before '}' token
+}
+^
+xmake[1]: *** [.build/src/Defender-Ant.xc.pca.xml.decouple] Error 1
+xmake: *** [analyze] Error 2
+17:44:40 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
+17:45:44 **** Incremental Build of configuration Default for project Defender-Ant ****
+xmake CONFIG=Default all 
+Checking build modules
+No build modules used.
+Analyzing Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating dependencies for Defender-Ant.xc
+Compiling Defender-Ant.xc
+../src/Defender-Ant.xc:148:7: warning: unused variable `moveCounter' [-Wunused-variable]
+  int moveCounter = 0;                       //moves of attacker so far
+      ^~~~~~~~~~~
+../src/Defender-Ant.xc:150:16: warning: unused variable `attemptedAntPosition' [-Wunused-variable]
+  unsigned int attemptedAntPosition;         //the next attempted  position after considering move direction
+               ^~~~~~~~~~~~~~~~~~~~
+../src/Defender-Ant.xc:152:7: warning: unused variable `moveForbidden' [-Wunused-variable]
+  int moveForbidden = 0;                     //the verdict of the controller if move is allowed
+      ^~~~~~~~~~~~~
+Creating Defender-Ant.xe
+Build Complete
