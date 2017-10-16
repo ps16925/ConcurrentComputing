@@ -120,6 +120,7 @@ void userAnt(chanend fromButtons, chanend toVisualiser, chanend toController) {
   unsigned int attemptedAntPosition = 0;   //the next attempted defender position after considering button
   int moveForbidden;                       //the verdict of the controller if move is allowed
   toVisualiser <: userAntPosition;         //show initial position
+
   while (1) {
     fromButtons :> buttonInput; //expect values 13 and 14
     if (buttonInput == 13){
@@ -129,7 +130,8 @@ void userAnt(chanend fromButtons, chanend toVisualiser, chanend toController) {
         if (moveForbidden == 0){
             userAntPosition += 1;
         }
-    }else if (buttonInput == 14){
+    }
+    else if (buttonInput == 14){
         attemptedAntPosition = userAntPosition - 1;
         toController <: attemptedAntPosition;
         toController :> moveForbidden;
@@ -154,30 +156,28 @@ void attackerAnt(chanend toVisualiser, chanend toController) {
   toVisualiser <: attackerAntPosition;       //show initial position
 
   while (running) {
-   attemptedAntPosition = attackerAntPosition + 1; //that's if direction is the same/. other direction needs to be done too
    toController <: attemptedAntPosition;
+   toController <: currentDirection;
+   toController :> currentDirection;
 
-
-
-   if (currentDirection){
-       if (attackerAntPosition < 22) {
-           attackerAntPosition++;
-       }
-       else {
-           attackerAntPosition = 0;
+   if (currentDirection) {
+       attackerAntPosition++;
+       attemptedAntPosition = (attackerAntPosition+1)%22;
+       if (attackerAntPosition > 22){
+          attackerAntPosition = 0;
        }
    }
    else {
-       if (attackerAntPosition < 22) {
-           attackerAntPosition--;
-       }
-       else {
-           attackerAntPosition = 0;
+       attackerAntPosition--;
+       attemptedAntPosition = (attackerAntPosition-1)%22;
+       if (attackerAntPosition == 0){
+          attackerAntPosition = 22;
        }
    }
-
-  toVisualiser <: attackerAntPosition;
-  waitMoment();
+   printf("attempted: %d\n", attemptedAntPosition);
+   printf("position: %d\n", attackerAntPosition);
+   toVisualiser <: attackerAntPosition;
+   waitMoment();
   }
 }
 
@@ -187,6 +187,7 @@ void attackerAnt(chanend toVisualiser, chanend toController) {
 void controller(chanend fromAttacker, chanend fromUser) {
   unsigned int lastReportedUserAntPosition = 11;      //position last reported by userAnt
   unsigned int lastReportedAttackerAntPosition = 5;   //position last reported by attackerAnt
+  unsigned int attackerDirection = 1;
   unsigned int attempt = 0;                           //incoming data from ants
   int gameEnded = 0;                                  //indicates if game is over
   fromUser :> attempt;                                //start game when user moves
@@ -195,31 +196,35 @@ void controller(chanend fromAttacker, chanend fromUser) {
     select {
         //ATTACKER
       case fromAttacker :> attempt:
-          printf("attacker is trying to go to: %d\n", attempt);
-      if ((attempt > 7 && attempt < 15)){
-          gameEnded = 1;
-      }
-      else if (attempt > 22){
-          attempt = 0;
-          fromAttacker <: attempt;
-      }else if(attempt == lastReportedUserAntPosition){
-          fromAttacker <: 1;
-      }
-      else {
-          fromAttacker <: 0;
-          lastReportedAttackerAntPosition = attempt;
-      }
-        break;
+          fromAttacker :> attackerDirection;
+
+          if (attempt > 8 && attempt < 14){
+             gameEnded = 1;
+             printf("Winner is attacker ant.\n");
+          }
+          if (attempt == lastReportedUserAntPosition){
+              attackerDirection = (attackerDirection + 1)%2;
+              lastReportedAttackerAntPosition = attempt + 1;
+          }
+          lastReportedAttackerAntPosition = attempt - 1;
+          fromAttacker <: attackerDirection;
+
+
+          break;
        //USER
       case fromUser :> attempt:
-      if (attempt > 22 || attempt < 0 || attempt == lastReportedAttackerAntPosition){
-          fromUser <: 1;
-      }
-      else {
-          lastReportedAttackerAntPosition = attempt;
-          fromUser <: 0;
-      }
-        break;
+
+          if (attempt > 7 && attempt < 15){
+              fromUser <: 0;
+              lastReportedUserAntPosition = attempt;
+          }
+          else {
+              fromUser <: 1;
+          }
+
+
+
+          break;
     }
   }
 }
